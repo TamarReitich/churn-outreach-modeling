@@ -1,0 +1,9 @@
+.DS_Store
+
+data/*
+figures/*
+*.pyc
+*.joblib
+*.png
+*.pptx
+*.csv

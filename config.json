@@ -1,0 +1,50 @@
+{
+    "Train": {
+      "data": {
+        "churn": "data/train/churn_labels.csv",
+        "web_visits": "data/train/web_visits.csv",
+        "claims": "data/train/claims.csv",
+        "app_usage": "data/train/app_usage.csv"
+      },
+      "fig_dir": "figures/Train/",
+      "data_output_dir": "data/output/Train/"
+    },
+    "CV": {
+      "data": {
+        "churn": "data/train/churn_labels.csv",
+        "web_visits": "data/train/web_visits.csv",
+        "claims": "data/train/claims.csv",
+        "app_usage": "data/train/app_usage.csv"
+      },
+      "fig_dir": "figures/CV/",
+      "data_output_dir": "data/output/CV/"
+    },
+    "All": {
+      "data": {
+        "churn": "data/train/churn_labels.csv",
+        "web_visits": "data/train/web_visits.csv",
+        "claims": "data/train/claims.csv",
+        "app_usage": "data/train/app_usage.csv"
+      },
+      "fig_dir": "figures/all/",
+      "data_output_dir": "data/output/all/"
+    },    
+    "Test": {
+      "data": {
+        "churn": "data/test/test_members.csv",
+        "web_visits": "data/test/test_web_visits.csv",
+        "claims": "data/test/test_claims.csv",
+        "app_usage": "data/test/test_app_usage.csv"
+      },
+      "fig_dir": "figures/Test/",
+      "data_output_dir": "data/output/Test/"
+    },
+    "output_file_names": {
+      "web_visit_clusters": "web_visit_description_clusters_and_emb.csv",
+      "model_name_suffix": "_churn_classifier.joblib"
+
+    },
+    "model_dir": "data/output/models/final/"
+    
+  }
+  
